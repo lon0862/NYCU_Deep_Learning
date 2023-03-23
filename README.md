@@ -5,5 +5,5 @@ Deep Learning Class in NYCU, 2023.02~now
 Implement backpropagation in simple MLP with numpy.<br>
 model_name: model1, model2 
 ```
-run hw1.py --model_name ${model_name}
+python hw1.py --model_name ${model_name}
 ```
