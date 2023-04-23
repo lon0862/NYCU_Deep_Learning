@@ -17,3 +17,12 @@ Alpha: 0.01, epochs: 150k+1 to 250K<br>
 g++ -std=c++11 -O3 -o 2048 2048.cpp
 ./2048
 ```
+
+## HW3
+In BCI competition dataset use EEGNet, DeepConvNet to solve classification problem.<br>
+And using three activation layer: ReLU, Leaky ReLU, ELU to compare.
+model_name: EEGNet, DeepConvNet 
+```
+python train.py --model_name ${model_name}
+```
+
