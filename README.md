@@ -10,8 +10,8 @@ python hw1.py --model_name ${model_name}
 
 ## HW2
 Use C++ to train 2048 AI with TD(0) and n-tuple network<br>
-Alpha: 0.1, epochs: 1~150K<br>
-Alpha: 0.01, epochs: 150k+1~250K<br>
+Alpha: 0.1, epochs: 1 to 150K<br>
+Alpha: 0.01, epochs: 150k+1 to 250K<br>
 2048 accuracy: 0.96
 ```
 g++ -std=c++11 -O3 -o 2048 2048.cpp
