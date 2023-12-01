@@ -1,5 +1,5 @@
 # Deep_Learning
-Deep Learning Class in NYCU, 2023.02~now
+Deep Learning Class in NYCU, 2023.02~2023.06
 
 ## HW1
 Implement backpropagation in simple MLP with numpy.<br>
