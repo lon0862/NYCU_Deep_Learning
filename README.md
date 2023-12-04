@@ -20,7 +20,7 @@ g++ -std=c++11 -O3 -o 2048 2048.cpp
 
 ## HW3
 In BCI competition dataset use EEGNet, DeepConvNet to solve classification problem.<br>
-And using three activation layer: ReLU, Leaky ReLU, ELU to compare.
+And using three activation layer: ReLU, Leaky ReLU, ELU to compare.<br>
 model_name: EEGNet, DeepConvNet 
 ```
 python train.py --model_name ${model_name}
@@ -33,3 +33,18 @@ model_name: ResNet18, ResNet50
 python train.py --model_name ${model_name}
 ```
 
+## HW5
+In bair robot pushing small dataset, implement Conditional VAE and use two past frames to predict the next ten frames.<br>
+```
+python train.py 
+```
+
+## HW6
+Part 1: Solve LunarLander-v2 using DQN <br>
+Part 2: Solve LunarLanderContinuous-v2 using DDPG <br>
+Part 3: Solve BreakoutNoFrameskip-v4 using DQN <br>
+```
+python dqn.py
+python ddpg.py
+python dqn_breakout.py 
+```
