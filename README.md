@@ -26,3 +26,10 @@ model_name: EEGNet, DeepConvNet
 python train.py --model_name ${model_name}
 ```
 
+## HW4
+In Diabetic Retinopathy Detection (kaggle), implement the ResNet18、ResNet50 architecture to classify imaging conditions.<br>
+model_name: ResNet18, ResNet50 
+```
+python train.py --model_name ${model_name}
+```
+
